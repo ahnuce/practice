@@ -1,0 +1,21 @@
+{
+  "name": "ahnuce",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "mongod": "^2.0.0",
+    "mongodb": "^2.2.29",
+    "setup": "^0.0.3"
+  },
+  "devDependencies": {
+    "budo": "^10.0.3",
+    "watchify": "^3.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "budo index.js --live"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
